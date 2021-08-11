@@ -1,4 +1,5 @@
-body {
+body,
+h3 {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
 }
@@ -51,11 +52,43 @@ nav a:hover {
   font-weight: bold;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .banner {
-  height: 650px;
-  background: url(./../assets/images/flower-bkgd.jpg), url(./../assets/images/banner-girl.png);
+  height: 450px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 50, 70, 0.5))), url(./../assets/images/banner-girl.png), url(./../assets/images/flower-bkgd.jpg);
+  background: linear-gradient(rgba(31, 50, 70, 0.5)), url(./../assets/images/banner-girl.png), url(./../assets/images/flower-bkgd.jpg);
   background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
-  background-size: contain, cover;
+  background-position: center, bottom, center;
+  background-size: cover, 160px, cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

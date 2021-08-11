@@ -1,4 +1,5 @@
-body {
+body,
+h3 {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
 }
@@ -46,11 +47,35 @@ nav a:hover {
   font-weight: bold;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+  font-size: 16px;
+  // font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .banner {
-  height: 650px;
-  background: url(./../assets/images/flower-bkgd.jpg),
-    url(./../assets/images/banner-girl.png);
+  height: 450px;
+  background: linear-gradient(rgba(31, 50, 70, 0.5)),
+    url(./../assets/images/banner-girl.png),
+    url(./../assets/images/flower-bkgd.jpg);
   background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
-  background-size: contain, cover;
+  background-position: center, bottom, center;
+  background-size: cover, 160px, cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
 }
