@@ -51,6 +51,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  text-align: center;
 }
 
 h1,
@@ -67,7 +68,7 @@ h3 {
 
 .banner {
   height: 450px;
-  background: linear-gradient(rgba(31, 50, 70, 0.5)),
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
     url(./../assets/images/banner-girl.png),
     url(./../assets/images/flower-bkgd.jpg);
   background-repeat: no-repeat, no-repeat;
@@ -78,4 +79,17 @@ h3 {
   justify-content: center;
   align-items: center;
   color: #ffffff;
+}
+
+div,
+section {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+}
+
+em {
+  font-weight: 400;
 }
