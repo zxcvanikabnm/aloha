@@ -101,4 +101,16 @@ section {
 em {
   font-weight: 400;
 }
+
+#about {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 15px;
+  line-height: 200%;
+}
+
+#about p {
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
