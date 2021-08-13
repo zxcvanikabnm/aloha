@@ -102,3 +102,84 @@ em {
 #about p {
   font-weight: 300;
 }
+
+// .top-half {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  flex-direction: row;
+}
+
+.square div {
+  width: 50%;
+}
+
+.men {
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/mens-category.jpg);
+}
+
+.trends {
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/trends-category.jpg);
+}
+
+.glasses {
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/glasses-category.jpg);
+}
+
+.sale {
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/sale-category.jpg);
+}
+
+.bags {
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/bags-category.jpg);
+}
+
+.women {
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/womens-category.jpg);
+}
+
+.men,
+.trends,
+.glasses,
+.sale,
+.bags,
+.women {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.men,
+.trends,
+.glasses,
+.sale,
+.bags {
+  margin-bottom: 10px;
+}
+
+.trends,
+.sale {
+  margin-right: 10px;
+}
