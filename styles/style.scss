@@ -183,3 +183,47 @@ em {
 .sale {
   margin-right: 10px;
 }
+
+.updates {
+  height: 300px;
+  background: linear-gradient(rgba(31, 50, 70, 0.25)),
+    url(./../assets/images/wave-bkgd.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 200%;
+  padding: 0 15px;
+}
+
+.form {
+  position: relative;
+  width: 340px;
+}
+
+.form input {
+  height: 50px;
+  width: 280px;
+  font-size: 1.25rem;
+  border-radius: 50px;
+  border: none;
+  padding-left: 25px;
+}
+
+button {
+  position: absolute;
+  height: 45px;
+  width: 120px;
+  border-radius: 25px;
+  border: none;
+  background-color: #e2574c;
+  color: #ffffff;
+  font-size: 1.2rem;
+  top: 4px;
+  left: 200px;
+}
